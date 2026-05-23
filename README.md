@@ -1,20 +1,23 @@
-# DataLakehouse-Databricks
+
+# Data Lakehouse Project
 
 Welcome to my **Data Lakehouse** repository! 
-This project demonstrates a data lakehousing solution in Databricks, from buiding a data lakehouse to generating actionable insights. It is designed as a portfolio project to showcase my Databricks and PySpark skills, as well as to highlight industry best practices in data engineering and analytics. 
+This project demonstrates a data lakehousing solution in Databricks, from buiding a data lakehouse to generating actionable insights. It is designed as a portfolio project to showcase my Databricks and PySpark skills, as well as to highlight industry best practices in data engineering. 
 The data sources, architecture, and models are the same as in my **Data Warehouse** project (link). If you have been there, the following is going to look very familiar.
 
 ---
+
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](docs/data_architecture.png)
 
-1. **Bronze Layer**: Stores raw data from the source systems. Data is ingested from CSV Files into the Databricks volume.
-2. **Silver Layer**: The data is cleaned, standardized, normalized, and business models are applied for analysis.
+1. **Bronze Layer**: Raw data ingestion, schema inference and Delta tables storage.
+2. **Silver Layer**: Data cleansing, standarization, and normalization. Type casting and validation.
 3. **Gold Layer**: Business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
+
 ## 📖 Project Overview
 
 This project involves:
@@ -30,17 +33,15 @@ This project involves:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
 
 ---
 
 ## 🛠️ Links & Tools:
 
-Everything is for Free!
 - **[Databricks Learn](link):** Free tool hosting the data lakehouse and database.
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
 - **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[GitHub](github.com):** Version control.
+- **[GitHub](www.github.com):** Version control.
 
 ---
 
@@ -57,19 +58,6 @@ Develop a modern data lakehouse using Databricks to consolidate sales data, enab
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
----
-
-### BI: Analytics & Reporting
-
-#### Objective
-Develop PySpark-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
-
 
 
 ## 📂 Repository Structure
@@ -96,7 +84,6 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 ```
 ---
-
 
 ## 🛡️ License
 
