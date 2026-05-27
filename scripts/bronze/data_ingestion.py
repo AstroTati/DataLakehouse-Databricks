@@ -4,9 +4,9 @@ Data Ingestion
 Author:         Tatiana Rodriguez
 Last update:    25/05/2026
 
-This script creates and bulk load the delta tables required for the project.
-We are using the overwrite mode, so be sure to have backups and procede 
-with caution.
+This script creates and loads the data into the delta tables required for the 
+project. We are using the overwrite mode, so be sure to have backups and 
+procede with caution.
 ______________________________________________________________________________
 '''
 
