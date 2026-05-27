@@ -66,4 +66,4 @@ for item in DATA_INGESTION_CONFIG:
           .saveAsTable(f"catalogue_project1.bronze.{item['table']}")
     )
 
-print(f">>> [{datetime.now()}]: DATA INGESTION COMPLETED")
+print(f">>> [{datetime.now()}]: DATA INGESTION COMPLETED!")
