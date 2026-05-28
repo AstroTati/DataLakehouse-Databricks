@@ -83,6 +83,10 @@ data-warehouse-project/
 ```
 ---
 
+## 📝 Acknowledgements
+
+This project was built following the Databricks bootcamp by [Baraa Khatib Salkini (Data With Baraa)](https://github.com/DataWithBaraa/sql-data-warehouse-project). The architecture, datasets, and overall approach are based on his original work. My version includes personal modifications to the transformation logic, query structure, and documentation.
+
 ## 🛡️ License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
