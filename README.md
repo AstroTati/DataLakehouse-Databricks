@@ -64,7 +64,7 @@ Develop a modern data lakehouse using Databricks to consolidate sales data, enab
 ```
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── data_source/                        # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── high_level_architecture.png     # Image file shows the project's architecture
