@@ -3,7 +3,7 @@
 
 Welcome to my **Data Lakehouse** repository! 
 This project demonstrates a data lakehousing solution in Databricks, from buiding a data lakehouse to generating actionable insights. It is designed as a portfolio project to showcase my Databricks and PySpark skills, as well as to highlight industry best practices in data engineering. 
-The data sources, architecture, and models are the same as in my [Data Warehouse prokect](https://github.com/AstroTati/DataWarehouse-SQL.git). If you have been there, the following is going to look very familiar.
+The data sources, architecture, and models are the same as in my [Data Warehouse project](https://github.com/AstroTati/DataWarehouse-SQL.git). If you have been there, the following is going to look very familiar.
 
 ---
 
